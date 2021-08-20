@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  font-family: "Josefin Sans", sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: linear-gradient(135deg, white, #fff5f5);
+  background-size: cover;
+}
+
+nav {
+  padding: 1.5em 2em;
+}
+
+nav .logo {
+  width: 35%;
+}
+
+.image {
+  min-width: 100%;
+}
+
+main {
+  width: 80%;
+  margin: 0 auto;
+  padding: 3em 0;
+  text-align: center;
+}
+
+main .header {
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  letter-spacing: 12px;
+  color: #413a3a;
+  padding-bottom: 0.5em;
+  line-height: 1.1;
+}
+
+main .header span {
+  font-weight: 300;
+  color: #ce9797;
+}
+
+main .text {
+  color: #ce9797;
+  font-size: 0.875rem;
+  line-height: 1.6;
+}
+
+.form-container {
+  padding: 2em;
+  position: relative;
+}
+
+.form-container #email {
+  min-width: 100%;
+  height: 50px;
+  color: #f96262;
+  opacity: 50%;
+  font-family: "Josefin Sans", sans-serif;
+  padding-left: 1.5em;
+  border-radius: 50px;
+  border: 1px solid #ce9797;
+  outline: none;
+  background-color: transparent;
+  position: absolute;
+  left: 0;
+}
+
+.form-container #email:focus {
+  border: 3px solid #ce9797;
+}
+
+.form-container #form-button {
+  position: absolute;
+  padding: 1em 2em;
+  right: 0;
+  border-radius: 25px;
+  border: none;
+  background: linear-gradient(135deg, #f8bfbf, #ee8c8c);
+  cursor: pointer;
+  -webkit-box-shadow: 0px 8px 15px #ce9797;
+          box-shadow: 0px 8px 15px #ce9797;
+}
+
+.form-container #form-button:hover {
+  opacity: 0.8;
+  -webkit-box-shadow: 0px 8px 10px #ce9797;
+          box-shadow: 0px 8px 10px #ce9797;
+  width: 12%;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.form-container #error {
+  position: absolute;
+  right: 5rem;
+  display: none;
+}
+/*# sourceMappingURL=styles.css.map */
